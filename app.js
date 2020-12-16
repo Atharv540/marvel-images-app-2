@@ -25,7 +25,7 @@ addUser = async () => {
         name: username,
         followers: 0,
         followed_users: [],
-        email: email,
+        id: email,
         logoUrl: logoUrl,
     })
 }
